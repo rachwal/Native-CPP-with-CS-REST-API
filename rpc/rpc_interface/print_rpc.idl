@@ -1,3 +1,7 @@
+//
+// RPC References
+// http://www.codeproject.com/Articles/4837/Introduction-to-RPC-Part
+// http://www.codeproject.com/Articles/4878/Introduction-to-RPC-Part
 [
 	uuid(774F83DA-B722-4E40-B5C0-EF8EAD4B2E76),
 	version(1.0),

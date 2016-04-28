@@ -1,5 +1,10 @@
 // Created by Bartosz Rachwal. 
 // Copyright (c) 2016 Bartosz Rachwal. The National Institute of Advanced Industrial Science and Technology, Japan. All rights reserved. 
+//
+// RPC References
+// https://msdn.microsoft.com/en-us/library/windows/desktop/aa379010%28v=vs.85%29.aspx
+// http://www.codeproject.com/Articles/4837/Introduction-to-RPC-Part
+// http://www.codeproject.com/Articles/4878/Introduction-to-RPC-Part
 
 #include "print_rpc_client_native.h"
 
