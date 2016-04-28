@@ -1,0 +1,15 @@
+[
+	uuid(774F83DA-B722-4E40-B5C0-EF8EAD4B2E76),
+	version(1.0),
+	helpstring("Native CPP with CS REST API Sample")
+] 
+interface AutomationPlugin
+{
+	typedef [context_handle] void* CONTEXT_HANDLE;
+
+	CONTEXT_HANDLE Open([in] handle_t binding_handle, [in, string] const char* command);
+	
+	void Print_RPC([in] CONTEXT_HANDLE ctx_handle);
+
+	void Close([in, out] CONTEXT_HANDLE* ctx_handle_ptr);
+};
